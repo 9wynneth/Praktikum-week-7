@@ -67,7 +67,7 @@ namespace Praktikum_week_7
                                     l = 0;
                                 }
                                 kalimatInputan = kalimatInputan + alphabet[l + difference];
-                                MessageBox.Show(kalimatInputan);
+                               
                             }
                         }
                
