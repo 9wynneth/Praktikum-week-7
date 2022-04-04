@@ -62,11 +62,12 @@ namespace Praktikum_week_7
                         {
                             if (inputKalimat[k]==alphabet[l])
                             {
-                                if (inputKalimat[k] > 26)
+                                if (alphabet[l] > 26)
                                 {
                                     l = 0;
                                 }
                                 kalimatInputan = kalimatInputan + alphabet[l + difference];
+                                MessageBox.Show(kalimatInputan);
                             }
                         }
                
